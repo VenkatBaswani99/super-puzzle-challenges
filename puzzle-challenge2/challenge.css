@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    background-image: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .puzzle-Challenge{
+    font-size: 40px;
+    border: 2px solid;
+    border-color:#39aaa8;
+    background-color: #39aaa8;
+    border-radius: 5px;
+    padding: 20px;
+    margin:10px;
+  }
+  
+  .game {
+    
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    border: 1px solid #550000;
+  }
+  
+  .grid button {
+    background-color: #cfcfcf9d;
+    color: #003333;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #550000;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  
+  .footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+     margin: auto;
+     margin-left: 15px;
+    
+  }
+  .footer1 {
+    margin-top: 15px;
+    display: block;
+    justify-content: right;
+     margin: auto;
+     margin-right: 15px;
+    
+  }
+  
+  .footer button {
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 80px;
+    background-color: white;
+    color: #090033;
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+    
+    
+  }
+  
+  .footer button:hover {
+    color: #D4EE9F;
+    background-color: #003333;
+    
+    
+  }
+  
+  .footer span {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    color: #D4EE9F;
+    font-weight: bold;
+    
+    
+  }
+  
+  
